@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dyoshikawa/rulesync/refs/heads/main/config-schema.json",
+  "targets": ["codexcli", "claudecode", "antigravity", "windsurf"],
+  "features": {
+    "codexcli": ["rules"],
+    "claudecode": ["rules", "skills"],
+    "antigravity": ["rules"],
+    "windsurf": ["rules"]
+  },
+  "delete": false
+}

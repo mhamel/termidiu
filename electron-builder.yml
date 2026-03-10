@@ -1,0 +1,19 @@
+appId: com.termidiu
+productName: TERMIDIU
+npmRebuild: false
+asarUnpack:
+  - node_modules/node-pty/**
+directories:
+  output: dist
+files:
+  - out/**/*
+  - resources/icon.ico
+  - package.json
+win:
+  icon: resources/icon.ico
+  signAndEditExecutable: false
+  target:
+    - target: portable
+      arch: x64
+portable:
+  artifactName: TERMIDIU.exe

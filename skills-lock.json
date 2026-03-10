@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "skills": {
+    "electron": {
+      "source": "teachingai/full-stack-skills",
+      "sourceType": "github",
+      "computedHash": "5c45286626a71d8ec426dcc8390e47743d052426bcf696cc5c75df4ab374c7db"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "d8e7d3afe37dcc8a97b99ffb5afdb4d0919ae0092ea8b68f44eb201f035e33ac"
+    }
+  }
+}
